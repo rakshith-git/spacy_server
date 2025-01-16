@@ -92,7 +92,7 @@ def combine_with_punctuation(doc):
 @app.route('/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
-    return jsonify({'status': 'healthy', 'model': 'en_core_web_md'})
+    return jsonify({'status': 'healthy', 'model': 'en_core_web_lg'})
 
 @app.route('/pos-tag', methods=['POST'])
 def pos_tag():
