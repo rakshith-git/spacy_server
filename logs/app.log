@@ -17,3 +17,6 @@
 2025-01-16 19:56:59,872 INFO: Successfully processed text with 775 tokens [in c:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:134]
 2025-01-16 19:56:59,912 INFO: Processing text of length: 4924 [in c:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:116]
 2025-01-16 19:57:00,073 INFO: Successfully processed text with 775 tokens [in c:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:134]
+2025-01-16 20:07:36,560 INFO: Loading spaCy model... [in C:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:38]
+2025-01-16 20:07:37,442 INFO: spaCy model loaded successfully [in C:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:40]
+2025-01-16 20:07:37,442 INFO: Starting server on 0.0.0.0:5000 [in C:\Users\win10\Documents\python projs\spacy_server\spacy_server..py:151]
