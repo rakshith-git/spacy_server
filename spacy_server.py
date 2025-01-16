@@ -36,7 +36,7 @@ HOST = os.environ.get('HOST', '0.0.0.0')
 try:
     # Load spaCy model
     logger.info("Loading spaCy model...")
-    nlp = spacy.load('en_core_web_md')
+    nlp = spacy.load('en_core_web_lg')
     logger.info("spaCy model loaded successfully")
 except Exception as e:
     logger.error(f"Failed to load spaCy model: {str(e)}")
