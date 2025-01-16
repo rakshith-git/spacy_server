@@ -36,7 +36,7 @@ HOST = os.environ.get('HOST', '0.0.0.0')
 try:
     # Load spaCy model
     logger.info("Loading spaCy model...")
-    nlp = spacy.load('en_core_web_lg')
+    nlp = spacy.load('en_core_web_md')
     logger.info("spaCy model loaded successfully")
 except Exception as e:
     logger.error(f"Failed to load spaCy model: {str(e)}")
@@ -92,7 +92,7 @@ def combine_with_punctuation(doc):
 @app.route('/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
-    return jsonify({'status': 'healthy', 'model': 'en_core_web_lg'})
+    return jsonify({'status': 'healthy', 'model': 'en_core_web_md'})
 
 @app.route('/pos-tag', methods=['POST'])
 def pos_tag():
